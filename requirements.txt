@@ -1,7 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: osx-arm64
-blas==1.0
 blinker==1.6.2
 bottleneck==1.3.7
 bzip2==1.0.8
