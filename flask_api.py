@@ -22,7 +22,7 @@ def stream_weather_data():
     """Endpoint to stream live weather data from Kafka."""
     consumer = KafkaConsumer(
         'global_weather',
-        bootstrap_servers='localhost:9092',
+        bootstrap_servers='52.90.225.193:9092',
         auto_offset_reset='latest',
         enable_auto_commit=True,
         group_id='weather_group',
